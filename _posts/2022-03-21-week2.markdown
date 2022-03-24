@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "week2"
+date:   2022-03-21 00:16:30 +0900
+categories: 컴퓨터알고리즘
+---
+# 1. 알고리즘
+## 1) 알고리즘 성능
+### - 시간복잡도와 공간복잡도를 따진다.
+### - 시간적 측면에서 다룬다.
+## 2) 금화 10개 씩 들어있는 주머니 10개에서 가짜 금화를 찾는법
+### - 주머니 1~10에서 1~10개 씩 차례로 꺼내서 한번에 저울에 달아본다.
+### - 정상적으로라면 550g이 나와야한다
+### - 거기서 빠진 그람 수가 가짜 금화가 들어있는 주머니
+## 3) 시간복잡도
+### - 다항 시간 안에 풀 수 있는가 없는가
+## 4) Big-O 표기법
+### - 점근적 상한
+### - 가장 높은 차수의 n의 식만 채택
+### - 상수항은 무시한다
+### - 하한을 따지려면 오메가 표기법
+
+# 2. git 설치 및 github 연결
+## 1) git 설치 (Mac M1)
+### (1) homebrew 설치
+### (2) brew 명령어 통해서 git 설치
+### (3) gitconfig --global 통해서 컴퓨터에 id랑 email등록
+## 2) GitHub랑 연동
+### (1) GitHub 가입
+### (2) username.github.io 이름의 repository 생성
+### (3) git remote add orgin 으로 연동 (local 과 remote 연결)
+### (4) username.github.io repository를 local 로 clone
+## 3) 블로그 준비를 위한 것들 다운
+### (1) homebrew 통해서 rbenv(ruby) 다운로드
+#### - 환경변수 설정하는데서 어려움을 겪음 ㅠㅠ (https://zeddios.tistory.com/122 참고)
+### (2) jekyll이랑 bundler 설치
+## 4) 테마 적용
+### (1) 테마를 local 폴더에 다운로드
+### (2) 테마 적용 및 수정
+### (3) bundle exec jekylll serve 통해서 잘 동작하는지 확인
+### (4) 잘 동작한다면 git push
+#### - 아직 여기서 헤매는 중... ㅠㅠ
+#### - localhost:4000에서 잘 동작은 하는데 push하면 오류 뜸..
+#### - 좀 더 시도해보고 안되면 질문해야겠다
+## 5) post 작성
+### (1) _posts 폴더 안에 markdown 형식의 문서로 작성하면 됨
+### (2) 확인은 bundle jekyll serve로 하고 잘 된다면 git push
+
+
+
