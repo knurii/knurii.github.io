@@ -18,7 +18,9 @@ categories: 컴퓨터알고리즘
 #### - 분할된 부분문제들에 대해서도 동일한 과정을 재귀적으로 수행하여 정렬한다.
 #### - 시간복잡도는 O(nlogn), 최악 시간복잡도는 O(n^2)
 ```python
+
 from typing import MutableSequence
+
 def qsort(a: MutableSequence, left: int, right: int) -> None:
 	pl = left
 	pr = right
@@ -34,6 +36,7 @@ def qsort(a: MutableSequence, left: int, right: int) -> None:
 
 	if left < pr: qsort(a, left, pr)
 	if pl < right: qsort(a, pl, right)
+
 def quick_sort(a: MutableSequence) -> NONE:
 	qsort(a, 0, len(a) - 1)
 
